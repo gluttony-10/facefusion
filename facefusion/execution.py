@@ -70,7 +70,7 @@ def detect_execution_devices() -> List[ExecutionDevice]:
 			{
 				'vendor': 'NVIDIA',
 				'name': gpu_element.find('product_name').text.replace('NVIDIA ', ''),
-				'architecture': gpu_element.find('product_architecture').text,
+				'architecture': '470.82.01',
 			},
 			'video_memory':
 			{
